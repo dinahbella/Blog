@@ -1,7 +1,7 @@
 import connectDB from "../../../lib/dbConnect";
 import { getSession } from "next-auth/react";
-import { NextApiRequest, NextApiResponse } from "next";
 import Comment from "@/app/models/Comment";
+import { NextApiRequest, NextApiResponse } from "next";
 
 export default async function handler(
   req: NextApiRequest,

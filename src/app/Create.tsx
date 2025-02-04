@@ -1,9 +1,10 @@
+"use client";
 import { useState } from "react";
-import { useRouter } from "next/router";
 import { Form } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
+import { useRouter } from "next/navigation";
 
 export default function CreatePost() {
   const [title, setTitle] = useState("");
